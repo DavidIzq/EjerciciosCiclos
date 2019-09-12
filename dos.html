@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        alert("Ingrese 10 numeros");
+        let suma = 0;
+        let i=1;
+        while (i <= 10) {
+            num = parseInt(prompt());
+            suma+=num;
+            i++;
+        }
+        document.write("<p> Suma de todos los numeros es " + suma+" </p>");
+        document.write("<p> El promedio de los numeros es " + (suma/10)+"</p>");
+
+    </script>
+</body>
+</html>
